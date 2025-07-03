@@ -1,0 +1,11 @@
+[Line 8] GenBank ID = 'OK558825.1' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 9] GenBank ID = 'OK558824.1' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 19] GenBank ID = 'MGYP000532440779' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 48] GenBank ID = 'JN129499.1/AET05798.1' → Skipped (not one unique ID)
+[Line 49] GenBank ID = 'JN129500.1/AET05799.1' → Skipped (not one unique ID)
+[Line 196] GenBank ID = 'KP347755.1' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 206] GenBank ID = 'AB102945.1/BAC67242.1' → Skipped (not one unique ID)
+[Line 229] GenBank ID = 'CP003218.1' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 236] GenBank ID = 'ANG 60415.10' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 248] GenBank ID = 'LC073705.1' → Error: Fetch failed (HTTP 400) or invalid format
+[Line 347] GenBank ID = 'CP018835.1' → Error: Fetch failed (HTTP 400) or invalid format
