@@ -1,0 +1,2 @@
+[Line 13] PDB ID = '2FX5_A' → Error: Fetch failed (HTTP 200) or invalid format
+[Line 100] PDB ID = '7QJM_A' → Error: Fetch failed (HTTP 200) or invalid format
