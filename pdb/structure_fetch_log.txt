@@ -1,0 +1,35 @@
+=== ✅ Summary ===
+Total processed entries: 1254
+Successful downloads: 169
+Failed to find: 25
+
+=== 📊 Found Structure Methods ===
+AlphaFold: 118 entries
+X-ray: 51 entries
+
+=== ❌ Not Found Entries ===
+50df1033a9 (A0A975YYR5)
+353219c259 (A0A975YYT9)
+f9e5478243 (P07061.1)
+b73db43ed5 (Q3L8N0.2)
+34148ffb89 (Q1EPR4.1)
+c3284e015c (Q79F77.1)
+8590497fdb (Q1EPR5.2)
+4993d6ed2e (P13397.2)
+a0954edf8c (P13398.2)
+6a419c8f62 (A0AB38ZML8)
+4d0f30527a (Iz-MnP1)
+4192ccdc09 (Iz-MnP2)
+00fab94b93 (P19833.1)
+be82051ac2 (A0A9P9DYB3)
+5739f30145 (KU695573)
+ba1370eff7 (A0A1Z2SIQ1_VIBGA)
+f21db2040e (UPI0003945E1F)
+e3ebe3e012 (Q6UFW4)
+0c1b4dd3c4 (P06873.2)
+3bababdd09 (P29599.1)
+bc5813403e (P29600.1)
+3e716ac988 (P52956.1)
+360413121e (P00780.2)
+c0e6029ac0 (G9BY57.1)
+d10fa554cb (A0AB38ZML8)

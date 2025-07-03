@@ -1,0 +1,93 @@
+standard_fields:
+  - plastic
+  - label
+  - sequence
+  - genbank_ids
+  - uniprot_ids
+  - pdb_ids
+  - refseq_ids
+  - mgnify_ids
+  - enzyme_name
+  - ec_number
+  - gene_name
+  - host_organism
+  - taxonomy
+  - reference
+  - source_name
+
+file_configs:
+  - path: /Users/shulei/PycharmProjects/Dataset/PAZy/pazy_with_id_types_final.csv
+    source: pazy
+    mapping:
+      Plastic: plastic
+      Reference: reference
+      taxonomy: taxonomy
+      host: host_organism
+      enzyme: enzyme_name
+      gene: gene_name
+      EC number: ec_number
+      UniProt: uniprot_ids
+      GenBank: genbank_ids
+      RefSeq: refseq_ids
+      PDB: pdb_ids
+      MGnify: mgnify_ids
+    static_values:
+      label: 1
+
+  - path: /Users/shulei/PycharmProjects/Dataset/PMBD/PMBD_cleaned.csv
+    source: pmbd
+    mapping:
+      Plastic: plastic
+      GenbankID: genbank_ids
+      Genes names: gene_name
+      Proteins names: enzyme_name
+      Organism: host_organism
+      Download Links for Reference: reference
+      UniProt links: uniprot_ids
+    static_values:
+      label: 1
+
+  - path: /Users/shulei/PycharmProjects/Dataset/PlasticDB/PlasticDB_cleaned.csv
+    source: plasticdb
+    mapping:
+      Plastic: plastic
+      Microorganism: host_organism
+      Ref: reference
+      Enzyme: enzyme_name
+      GenbankID: genbank_ids
+      Sequence: sequence
+    static_values:
+      label: 1
+
+  - path: /Users/shulei/PycharmProjects/Dataset/plastic_degrading_enzymes_github/plastic_degrading_enzymes_processed.csv
+    source: plastic_degrading_enzymes_github
+    mapping:
+      Plastic: plastic
+      sequence: sequence
+      label: label
+    static_values:
+      reference: https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+
+  - path: /Users/shulei/PycharmProjects/Dataset/Plastic_degrading_microbiome_github/Plastic_degrading_microbiome_github.csv
+    source: plastic_degrading_microbiome_github
+    mapping:
+      plastic: plastic
+      id: uniprot_ids
+      organism: host_organism
+      doi: reference
+      proteins names: enzyme_name
+      aa_seq: sequence
+    static_values:
+      label: 1
+      reference: https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv
+
+  - path: /Users/shulei/PycharmProjects/Dataset/ACS/ACS.csv
+    source: acs_journal
+    mapping:
+      category: plastic
+      degradation: label
+      sequence: sequence
+      ref: reference
+    static_values:
+      label: 1
+      reference: https://pubs.acs.org/doi/10.1021/acs.estlett.3c00293

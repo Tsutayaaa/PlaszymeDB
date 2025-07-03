@@ -1,0 +1,80 @@
+Plastic,GenbankID,Genes names,NCBI Links for Genes,Proteins names,UniProt links,Organism,Download Links for Reference
+PHB,AB015309.1,,4033617,PHB depolymerase,Q9ZNH8,Acidovorax sp. TP4,https://link.springer.com/article/10.1023/A%3A1021885901119
+PHB,AB003186.1,phaZCac,AB003186.1,PHB depolymerase,O05527,Delftia acidovorans,https://www.researchgate.net/publication/13824636_Biochemical_and_molecular_characterization_of_the_polyhydroxybutyrate_depolymerase_of_Comamonas_acidovorans_YM1609_isolated_from_freshwater?ev=auth_pub
+PU,AB009606.1,pudA,4521255,Carboxylic ester hydrolase,Q9WX47,Delftia acidovorans,https://www.researchgate.net/publication/223730389_Cloning_and_sequence_analysis_of_a_polyurethane_esterase_of_Comamonas_acidovorans_TB-35
+PLA,AB093482.1,PlaA,29467596,PLA depolymerase,Q83VD0,Paenibacillus amylolyticus,https://www.researchgate.net/publication/10772044_Cloning_and_Sequencing_of_a_PolyDL-Lactic_Acid_Depolymerase_Gene_from_Paenibacillus_amylolyticus_Strain_TB-13_and_Its_Functional_Expression_in_Escherichia_coli
+TP,AY923836.1,tphB,60326838,"1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase",Q5D0X4,Comamonas testosteroni YZW-D,https://www.researchgate.net/publication/14634447_Molecular_Analysis_of_Isophthalate_and_Terephthalate_Degradation_by_Comamonas_Testosteroni_YZW-D
+TP,AB238678.1,tphA2I,AB238678.1,"Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 1",Q3C1E3,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+TP,AB238678.1,tphA1I,AB238678.1,"Terephthalate 1,2-dioxygenase, reductase component 1",Q3C1E0,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+TP,AB238678.1,tphA3I,AB238678.1,"Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 1",Q3C1E2,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+TP,AB238678.1,tphBI,AB238678.1,"1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase",Q3C1E1,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+TP,AB238679.1,tphA1II,AB238679.1,"Terephthalate 1,2-dioxygenase, reductase component 2",Q3C1D2,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+TP,AB238679.1,tphA3II,AB238679.1,"Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit beta 2",Q3C1D4,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+TP,AB238679.1,tphA2II,AB238679.1,"Terephthalate 1,2-dioxygenase, terminal oxygenase component subunit alpha 2",Q3C1D5,Comamonas sp. E6,http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC1393238&blobtype=pdf
+DBP,KM098150.1,carEW,KM098150,Carboxylic ester hydrolase,A0A0D3MTJ6,Bacillus sp. K91,https://www.researchgate.net/publication/273327232_Properties_of_a_Newly_Identified_Esterase_from_Bacillus_sp_K91_and_Its_Novel_Function_in_Diisobutyl_Phthalate_Degradation
+DBP,FJ528993.1,phtAa,FJ528993.1,Phthalate dioxygenase large subunit,B8YFX2,Rhodococcus sp. JDC-11,https://www.researchgate.net/publication/47621829_Biodegradation_of_Di-n-Butyl_Phthalate_by_Rhodococcus_sp_JDC-11_and_Molecular_Detection_of_34-Phthalate_Dioxygenase_Gene
+PBS,AB066349.1,pbsA,AB066349,PBS(A) depolymerase,Q8RR62,Acidovorax delafieldii BS-3,https://www.researchgate.net/publication/7533660_Cloning_and_Sequence_Analysis_of_Polytetramethylene_succinate_Depolymerase_from_Acidovorax_delafieldii_Strain_BS-3
+PET,HQ147787.1,cut1,HQ147787.1,Cutinase 1,E9LVI0,Thermobifida fusca KW3,https://www.researchgate.net/publication/228089985_Enzymatic_Surface_Hydrolysis_of_PET_Effect_of_Structural_Diversity_on_Kinetic_Properties_of_Cutinases_from_Thermobifida
+PET,AB445476,est2,AB445476.2,Esterase,F7IX06,Thermobifida alba,https://link.springer.com/article/10.1007/s00253-010-2555-x
+PET,AB445476,est1,AB445476.2,Esterase,D4Q9N1,Thermobifida alba,https://link.springer.com/article/10.1007/s00253-010-2555-x
+PVA,AB190288.4,pvadh,AB190288.4,Polyvinylalcohol dehydrogenase,Q588Z1,Sphingopyxis sp. 113P3,https://www.researchgate.net/publication/7918577_Biochemical_and_molecular_characterization_of_a_periplasmic_hydrolase_for_oxidized_polyvinyl_alcohol_from_Sphingomonas_sp_strain_113P3
+PVA,AB190288.4,oph,AB190288.4,Oxidized polyvinyl alcohol hydrolase,Q588Z2,Sphingopyxis sp. 113P3,https://www.researchgate.net/publication/7918577_Biochemical_and_molecular_characterization_of_a_periplasmic_hydrolase_for_oxidized_polyvinyl_alcohol_from_Sphingomonas_sp_strain_113P3
+PVA,D50670.1,pvaA,D50670.1,Polyvinylalcohol dehydrogenase,P77931,Pseudomonas sp. VM15C,https://www.researchgate.net/publication/14421249_Cloning_and_Characterization_of_the_Gene_Encoding_Pyrroloquinoline_Quinone-dependent_Poly_vinyl_alcohol_Dehydrogenase_of_Pseudomonas_sp_Strain_VM15C
+PVA,AB008494.1,pvaB,AB008494.1,Oxidized polyvinyl alcohol hydrolase,Q9LCQ7,Pseudomonas sp.,https://www.researchgate.net/publication/284576686_The_gene_pvaB_encodes_oxidized_polyvinyl_alcohol_hydrolase_of_Pseudomonas_sp_strain_VM15C_and_forms_an_operon_with_the_polyvinyl_alcohol_dehydrogenase_gene_pvaA
+PET,HQ147786.1,cut2,HQ147786.1,Cutinase 2,E9LVH9,Thermobifida cellulosilytica,https://www.researchgate.net/publication/228089985_Enzymatic_Surface_Hydrolysis_of_PET_Effect_of_Structural_Diversity_on_Kinetic_Properties_of_Cutinases_from_Thermobifida
+Nylon,AB264778.2,nylC,AB264778.2,Endotype 6-aminohexanoat-oligomer hydrolase,Q1EPR5,Agromyces sp. KY5R,https://www.researchgate.net/publication/5635374_Genetic_organization_of_nylon-oligomer-degrading_enzymes_from_alkalophilic_bacterium_Agromyces_sp._KY5R
+PET,JH658423.1,FOQG_13916,385770955,Cutinase,X0BTD8,Fusarium oxysporum f. sp. raphani 54005,https://www.researchgate.net/publication/281170707_Structural_and_functional_studies_of_a_Fusarium_oxysporum_cutinase_with_polyethylene_terephthalate_modification_potential
+PET,BBYR01000074.1,ISF6_4831,NZ_BBYR01000074.1,Poly(ethylene terephthalate) hydrolase,A0A0K8P6T7,Ideonella sakaiensis strain 201-F6,https://www.researchgate.net/publication/297743309_A_bacterium_that_degrades_and_assimilates_polyethylene_terephthalate
+PLA,AB102945.1,CLE1,AB102945,Cutinase-like enzyme,Q874E9,Cryptococcus sp. S-2,https://aem.asm.org/content/71/11/7548.long
+PHB,D25315.1,pDS-PS,D25315.1,Poly(3-hydroxybutyrate) depolymerase,Q52155,Ralstonia pickettii,https://www.researchgate.net/publication/302309357_Monitoring_of_Polymer_Biodegradabilities_in_the_Environment_by_a_DNA_Probe_Method
+PU,EF175556,pueA,EF175556,Polyurethanase A,A1Z374,Pseudomonas chlororaphis,https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2672.2007.03447.x
+PET,AB728484.1,Cut190,AB728484.1,Alpha/beta hydrolase family protein,W0TJ64,Saccharomonospora viridis,https://link.springer.com/article/10.1007/s00253-014-5860-y
+PHO,U10470,phaZ,U10470,Poly(3-hydroxyoctanoate) depolymerase,Q51718,Pseudomonas fluorescens,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC197081/
+PHB,AY538710,phaZ,AY538710,PHB depolymerase,Q5YEW3,Schlegelella sp. KB1a,https://link.springer.com/article/10.1007%2Fs00203-004-0684-2
+PHB,AB258388,phaZ,AB258388,Poly(3-hydroxybutyrate) depolymerase,A0A8W8,Bacillus megaterium,https://academic.oup.com/femsle/article/264/2/152/551242
+PHB,AB038647,phaZ,AB038647,PHB depolymerase,Q9LBN6,Caldimonas manganoxidans,http://ijs.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-52-3-895#tab2
+PHB,AB079799,phaZ,AB079799,Poly(3-hydroxybutyrate) depolymerase,Q8GRC2,Caldimonas manganoxidans,https://www.sciencedirect.com/science/article/pii/S0141813003001077?via%3Dihub
+PHA,AY370932,phaZ,AY370932,PhaZ,Q6UFW4,Pseudomonas alcaligenes,https://www.researchgate.net/publication/7747924_Molecular_characterization_of_extracellular_medium-chain-length_poly3-hydroxyalkanoate_depolymerase_genes_from_Pseudomonas_alcaligenes_strains
+PHB,AF474374,phaZ,AF474374,PHB depolymerase,Q71KW6,Azospirillum brasilense,https://link.springer.com/article/10.1007%2Fs00203-003-0590-z
+PHA,AB839772,phaZ,AB839772,PHA depolymerase,V5YV80,Paracoccus denitrificans,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3911200/
+phthalate,AF095748,ophA1,AF095748.1,Phthalate dioxygenase reductase,P33164,Burkholderia cepacia DBO1,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC107754/
+phthalate,AF095748,ophC,AF095748.1,"4,5-dihydroxyphthalate decarboxylase",Q9ZFR0,Burkholderia cepacia DBO1,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC107754/
+phthalate,AF095748,ophA2,AF095748.1,Phthalate dioxygenase,Q9ZFQ5,Burkholderia cepacia DBO1,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC107754/
+phthalate,AY372761,,AY372761,Phthalate dioxygenase large subunit,Q6UC97,Mycobacterium sp. PAH2.135,http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2
+phthalate ,AY372763,,AY372763,Phthalate dihydrodiol dehydrogenase,Q6UC95,Mycobacterium sp. PAH2.135,http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2
+phthalate ,AY372762,,AY372762,Phthalate dioxygenase large subunit,Q6UC96,Mycolicibacterium gilvum PYR-GCK,http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2
+phthalate,AY372764,,AY372764,Phthalate dihydrodiol dehydrogenase,Q6UC94,Mycolicibacterium gilvum PYR-GCK,http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2
+PU,AF069748,pueA,AF069748,Polyurethanase esterase A,Q9X3C0,Pseudomonas chlororaphis,https://onlinelibrary.wiley.com/doi/full/10.1111/j.1574-6968.2000.tb09056.x
+PU,AF188366,pueB,AF188366,Polyurethanase B,Q9R9H2,Pseudomonas chlororaphis,https://www.researchgate.net/publication/229118475_Cloning_nucleotide_sequencing_and_characterization_of_a_polyurethanase_gene_pueB_from_Pseudomonas_chlororaphis
+PLA,AB302136,plaM4,AB302136,PLA depolymerase,A4UZ10,uncultured bacterium,https://link.springer.com/article/10.1007/s00253-008-1477-3
+PLA,AB302138,plaM7,AB302138,PLA depolymerase,A4UZ12,uncultured bacterium,https://link.springer.com/article/10.1007/s00253-008-1477-3
+PLA,AB302140,plaM9,AB302140,PLA depolymerase,A4UZ14,uncultured bacterium,https://link.springer.com/article/10.1007/s00253-008-1477-3
+PLA,AB302137,plaM5,AB302137,PLA depolymerase,A4UZ11,uncultured bacterium,https://link.springer.com/article/10.1007/s00253-008-1477-3
+PLA,AB302139,plaM8,AB302139,PLA depolymerase,A4UZ13,uncultured bacterium,https://link.springer.com/article/10.1007/s00253-008-1477-3
+PHB,AB281621.1,phaZPfu,187936709,Poly(3-hydroxybutyrate) depolymerase,B2NHN2,Talaromyces funiculosus,https://www.researchgate.net/publication/230352415_Molecular_Characterization_of_the_Poly3-hydroxybutyrate_Depolymerase_Gene_from_Penicillium_funiculosum
+PHB,AB206256,phaZd,AB206256,Intracellular poly(3-hydroxybutyrate) depolymerase,Q3V6L9,Cupriavidus necator H16,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1251622/
+PHB,FJ200367,,FJ200367,PhaZd,B6UQD9,Diaphorobacter sp. PCA039,https://link.springer.com/article/10.1007/s11274-010-0361-3
+PHB,U55775,PhaZ,U55775,Poly(3-hydroxybutyrate) depolymerase,P94146,Alcaligenes faecalis,https://www.sciencedirect.com/science/article/pii/S0167478197000110?via%3Dihub
+PET,HQ704839,,HQ704839,LCC,G9BY57,uncultured bacterium,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3294458/
+PET,FR727681,cut-2.KW3,312283900,Cutinase,E5BBQ3,Thermobifida fusca ,https://aem.asm.org/content/84/8/e02773-17
+PET,NC_013510.1,Tcur_1278,NC_013510.1,Triacylglycerol lipase,D1A9G5,Thermomonospora curvata,https://aem.asm.org/content/84/8/e02773-17
+PET,HQ147784.1,cut1,HQ147784.1,Cutinase 1,E9LVH7,Thermobifida alba,https://aem.asm.org/content/84/8/e02773-17
+PET,JQ339742.1 ,,JQ339742.1,Serine hydrolase,H6WX58,Thermobifida halotolerans,https://aem.asm.org/content/84/8/e02773-17
+PET,EU660533,lipIAF5-2,186914883,PET2,C3RYL0,uncultured bacterium,https://aem.asm.org/content/84/8/e02773-17
+PET,FO203512,lipA OLEAN_C07960,508728691,PET5,R4YKL9,Oleispira antarctica RB-8,https://aem.asm.org/content/84/8/e02773-17
+PET,CP018835.1,n.d,CP018835.1,PET6,,Vibrio gazogenes,https://aem.asm.org/content/84/8/e02773-17
+PET,NZ_CP011371,AAW51_2473,NZ_CP011371.1,PET12,A0A0G3BI90,Polyangium brachysporum,https://aem.asm.org/content/84/8/e02773-17
+PA,KU695573,lip,KU695573,Lipase,A0A1B0Z6Y3,Pseudomonas pelagia,https://pubs.acs.org.ccindex.cn/doi/10.1021/acs.est.7b00062
+PBAT,KX533504,EstB3,KX533504,Carboxylesterase,A0A1C9T884,uncultured bacterium,https://aem.asm.org/content/83/4/e02641-16.long
+PBAT,KX533505,EstB11,KX533505,Carboxylesterase,A0A1C9T772,uncultured bacterium,https://aem.asm.org/content/83/4/e02641-16.long
+PBAT,KX533506,EstC5,KX533506,Carboxylesterase,A0A1C9T7D1,uncultured bacterium,https://aem.asm.org/content/83/4/e02641-16.long
+PBAT,KX533507,EstC7,KX533507,Carboxylesterase,A0A1C9T784,uncultured bacterium,https://aem.asm.org/content/83/4/e02641-16.long
+PBAT,KX533508,EstC9,KX533508,Carboxylesterase,A0A1C9T7D3,uncultured bacterium,https://aem.asm.org/content/83/4/e02641-16.long
+PBAT,KX533509,EstG4,KX533509,Carboxylesterase,A0A1C9T7G6,uncultured bacterium,https://aem.asm.org/content/83/4/e02641-16.long
+PHB,AB000508,phaZ,AB000508,Poly(3-hydroxybutyrate) depolymerase,O24719,Comamonas testosteroni,https://linkinghub.elsevier.com/retrieve/pii/S014181309900046X
+PHB,AB012225,phaZpst,AB012225,Polyhydroxybutyrate depolymerase,O82950,Pseudomonas stutzeri,https://linkinghub.elsevier.com/retrieve/pii/S014181309900046X
+PHB,J04223,,J04223,Poly(3-hydroxybutyrate) depolymerase,P12625,Ralstonia pickettii,https://linkinghub.elsevier.com/retrieve/pii/S014181309900046X
+PBS,LC276896,PaCLE1,LC276896,Cutinase-like enzyme,S6BC01,Pseudozyma antarctica,https://www.tandfonline.com/doi/full/10.1080/09168451.2019.1571898
+PBAT,KX002004.1,,KX002004.1,Aryl esterase,A0A145Z9W5,Pseudomonas pseudoalcaligenes,https://link.springer.com/article/10.1007%2Fs00253-016-7992-8
+PE,MK045309,alkB,MK045309,Alkane monooxygenase AlkB,A0A3G2VUJ0,Paenibacillus sp. DK1,https://link.springer.com/article/10.1007%2Fs00203-019-01637-9
+PEG,AB196775.2,pegA,AB196775,Polyethylene glycol dehydrogenase,A9ZM00,Sphingopyxis macrogoltabida,https://link.springer.com/article/10.1007%2Fs00253-005-1936-z
