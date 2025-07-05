@@ -1,0 +1,39 @@
+2025-07-04 19:41:13,369 Running colabfold 1.5.5
+2025-07-04 19:41:13,611 Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2025-07-04 19:41:13,612 Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2025-07-04 19:41:13,622 Running on GPU
+2025-07-04 19:41:13,833 Found 5 citations for tools or databases
+2025-07-04 19:41:13,834 Query 1/1: 25a220737a (length 260)
+2025-07-04 19:41:29,816 Setting max_seq=512, max_extra_seq=5120
+2025-07-04 19:42:22,644 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=96.1 pTM=0.924
+2025-07-04 19:42:24,651 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=96.5 pTM=0.928 tol=0.288
+2025-07-04 19:42:26,659 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=96.8 pTM=0.93 tol=0.149
+2025-07-04 19:42:28,662 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=96.8 pTM=0.93 tol=0.0692
+2025-07-04 19:42:28,663 alphafold2_ptm_model_1_seed_000 took 49.4s (3 recycles)
+2025-07-04 19:42:30,736 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=95.8 pTM=0.927
+2025-07-04 19:42:32,735 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=96.1 pTM=0.929 tol=0.402
+2025-07-04 19:42:34,743 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=96.4 pTM=0.933 tol=0.0834
+2025-07-04 19:42:36,750 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=96.5 pTM=0.933 tol=0.0745
+2025-07-04 19:42:36,751 alphafold2_ptm_model_2_seed_000 took 8.0s (3 recycles)
+2025-07-04 19:42:38,833 alphafold2_ptm_model_3_seed_000 recycle=0 pLDDT=96.2 pTM=0.929
+2025-07-04 19:42:40,844 alphafold2_ptm_model_3_seed_000 recycle=1 pLDDT=96.6 pTM=0.933 tol=0.415
+2025-07-04 19:42:42,862 alphafold2_ptm_model_3_seed_000 recycle=2 pLDDT=96.7 pTM=0.935 tol=0.255
+2025-07-04 19:42:44,878 alphafold2_ptm_model_3_seed_000 recycle=3 pLDDT=96.8 pTM=0.936 tol=0.124
+2025-07-04 19:42:44,879 alphafold2_ptm_model_3_seed_000 took 8.1s (3 recycles)
+2025-07-04 19:42:46,965 alphafold2_ptm_model_4_seed_000 recycle=0 pLDDT=96 pTM=0.929
+2025-07-04 19:42:48,975 alphafold2_ptm_model_4_seed_000 recycle=1 pLDDT=96.4 pTM=0.933 tol=0.477
+2025-07-04 19:42:50,989 alphafold2_ptm_model_4_seed_000 recycle=2 pLDDT=96.7 pTM=0.935 tol=0.0754
+2025-07-04 19:42:52,998 alphafold2_ptm_model_4_seed_000 recycle=3 pLDDT=96.6 pTM=0.934 tol=0.0565
+2025-07-04 19:42:52,999 alphafold2_ptm_model_4_seed_000 took 8.0s (3 recycles)
+2025-07-04 19:42:55,080 alphafold2_ptm_model_5_seed_000 recycle=0 pLDDT=95.9 pTM=0.93
+2025-07-04 19:42:57,091 alphafold2_ptm_model_5_seed_000 recycle=1 pLDDT=96.3 pTM=0.933 tol=0.283
+2025-07-04 19:42:59,104 alphafold2_ptm_model_5_seed_000 recycle=2 pLDDT=96.6 pTM=0.935 tol=0.0846
+2025-07-04 19:43:01,116 alphafold2_ptm_model_5_seed_000 recycle=3 pLDDT=96.8 pTM=0.936 tol=0.0445
+2025-07-04 19:43:01,117 alphafold2_ptm_model_5_seed_000 took 8.0s (3 recycles)
+2025-07-04 19:43:01,194 reranking models by 'plddt' metric
+2025-07-04 19:43:01,194 rank_001_alphafold2_ptm_model_3_seed_000 pLDDT=96.8 pTM=0.936
+2025-07-04 19:43:01,194 rank_002_alphafold2_ptm_model_5_seed_000 pLDDT=96.8 pTM=0.936
+2025-07-04 19:43:01,195 rank_003_alphafold2_ptm_model_1_seed_000 pLDDT=96.8 pTM=0.93
+2025-07-04 19:43:01,195 rank_004_alphafold2_ptm_model_4_seed_000 pLDDT=96.6 pTM=0.934
+2025-07-04 19:43:01,195 rank_005_alphafold2_ptm_model_2_seed_000 pLDDT=96.5 pTM=0.933
+2025-07-04 19:43:02,243 Done
