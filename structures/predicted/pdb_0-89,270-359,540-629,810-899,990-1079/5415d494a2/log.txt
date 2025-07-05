@@ -1,0 +1,7 @@
+2025-07-04 14:43:02,102 Running colabfold 1.5.5
+2025-07-04 14:43:02,351 Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2025-07-04 14:43:02,352 Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2025-07-04 14:43:02,363 Running on GPU
+2025-07-04 14:43:02,505 Found 5 citations for tools or databases
+2025-07-04 14:43:02,505 Query 1/1: 5415d494a2 (length 265)
+2025-07-04 14:43:07,451 Setting max_seq=512, max_extra_seq=5120
