@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Dataset" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Dataset" project-jdk-type="Python SDK" />
 </project>
