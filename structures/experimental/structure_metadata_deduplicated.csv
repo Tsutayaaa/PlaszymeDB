@@ -1,4 +1,4 @@
-PLZ_ID,pdb_id,structure_source,structure_method,resolution,source_file_path
+PLZ_ID,pdb_id,structure_source,structure_method,resolution,pdb_path
 41cce49ced,2CZQ,RCSB_PDB,X-RAY DIFFRACTION,1.05 Å,pdb/2CZQ.pdb
 bd7ef0ab46,8AIR,RCSB_PDB,X-RAY DIFFRACTION,1.08 Å,pdb/8AIR.pdb
 ba04d67a0c,6SBN,RCSB_PDB,X-RAY DIFFRACTION,1.09 Å,pdb/6SBN.pdb
