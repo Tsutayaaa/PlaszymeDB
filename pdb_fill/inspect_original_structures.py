@@ -2,7 +2,7 @@ import csv
 import requests
 
 INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/pdb_fill/PlaszymeDB_v0.2.3_pdb.csv"
-OUTPUT_CSV = "PlaszymeDB_v0.2.4_pdb_fixed.csv"
+OUTPUT_CSV = "PlaszymeDB_v0.2.3_pdb_fixed.csv"
 EMAIL = "shuleihe@outlook.com"
 
 HEADERS = {
