@@ -1,4 +1,4 @@
-sample_id,pLDDT,pTM,pdb_path,json_path
+PLZ_ID,pLDDT,pTM,pdb_path,json_path
 2bfa7c79bc,95.1,0.937,pdb/2bfa7c79bc.pdb,json/2bfa7c79bc.json
 a7815b64b8,95.4,0.929,pdb/a7815b64b8.pdb,json/a7815b64b8.json
 3153c53881,93.4,0.913,pdb/3153c53881.pdb,json/3153c53881.json

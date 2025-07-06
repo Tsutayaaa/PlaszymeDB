@@ -60,7 +60,7 @@ for subfolder in os.listdir(INPUT_DIR):
                 break
 
     new_records.append({
-        "sample_id": sample_id,
+        "PLZ_ID": sample_id,
         "pLDDT": plddt,
         "pTM": ptm,
         "pdb_path": pdb_rel_path,
@@ -70,16 +70,16 @@ for subfolder in os.listdir(INPUT_DIR):
 # 合并已有 CSV 文件并去重优化
 if os.path.exists(CSV_OUTPUT_PATH):
     existing_df = pd.read_csv(CSV_OUTPUT_PATH)
-    existing_df.set_index("sample_id", inplace=True)
+    existing_df.set_index("PLZ_ID", inplace=True)
     for record in new_records:
-        sid = record["sample_id"]
+        sid = record["PLZ_ID"]
         if sid in existing_df.index:
             row = existing_df.loc[sid]
 
             # 判断是否为空记录
             if row.isnull().all() or row.dropna().eq("").all():
                 print(f"🔁 Updating empty entry for {sid}")
-                existing_df.loc[sid] = pd.Series(record).drop("sample_id")
+                existing_df.loc[sid] = pd.Series(record).drop("PLZ_ID")
                 continue
 
             # 比较质量（pLDDT & pTM）
@@ -94,7 +94,7 @@ if os.path.exists(CSV_OUTPUT_PATH):
 
             if (new_plddt, new_ptm) > (old_plddt, old_ptm):
                 print(f"🔄 Replacing {sid} with better scores: ({old_plddt}, {old_ptm}) → ({new_plddt}, {new_ptm})")
-                existing_df.loc[sid] = pd.Series(record).drop("sample_id")
+                existing_df.loc[sid] = pd.Series(record).drop("PLZ_ID")
             elif (new_plddt, new_ptm) == (old_plddt, old_ptm):
                 print(f"🔁 Same scores for {sid}, keeping new file paths.")
                 for field in ["pdb_path", "json_path"]:
@@ -102,7 +102,7 @@ if os.path.exists(CSV_OUTPUT_PATH):
             else:
                 print(f"⚠️ Duplicate {sid} found, keeping existing better score.")
         else:
-            existing_df.loc[sid] = pd.Series(record).drop("sample_id")
+            existing_df.loc[sid] = pd.Series(record).drop("PLZ_ID")
 
     combined_df = existing_df.reset_index()
 else:
