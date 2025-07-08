@@ -1,10 +1,10 @@
 import pandas as pd
 from pathlib import Path
 import shutil
-from structures.structure_loader import get_pdb_path
+from structure_data.structure_loader import get_pdb_path
 
 # === 配置项 ===
-MAIN_CSV_PATH = "/Users/shulei/PycharmProjects/Dataset/pdb_fill/PlaszymeDB_v0.2.3_pdb.csv"
+MAIN_CSV_PATH = "/scripts/pdb_fill/PlaszymeDB_v0.2.3_pdb.csv"
 OUTPUT_DIR = Path("fri_dataset")
 
 # === 输出结构目录 ===
