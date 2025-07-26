@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="TableDiffSettings">
-    <option name="columnMismatchThreshold" value="2" />
+    <option name="detectColumnInsertion" value="false" />
+    <option name="columnMismatchThreshold" value="5" />
   </component>
 </project>

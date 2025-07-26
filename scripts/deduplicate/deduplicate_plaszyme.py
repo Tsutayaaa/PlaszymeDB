@@ -2,9 +2,9 @@ import pandas as pd
 from collections import defaultdict, Counter
 
 # === 用户参数 ===
-INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/deduplicate/PlaszymeDB_v0.2.csv"
-OUTPUT_CSV = INPUT_CSV.replace(".csv", ".1_deduplicated.csv")
-LOG_TXT = INPUT_CSV.replace(".csv", ".1_deduplication_log.txt")
+INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/scripts/deduplicate/PlaszymeDB_v0.2.3.csv"
+OUTPUT_CSV = INPUT_CSV.replace(".csv", "._deduplicated.csv")
+LOG_TXT = INPUT_CSV.replace(".csv", "._deduplication_log.txt")
 
 # === 主键列定义 ===
 key_cols = ["plastic", "label", "sequence"]
@@ -16,44 +16,85 @@ df["original_index"] = df.index.astype(str)
 # === 移除 sequence 为空的行（其余两列可为空）===
 df = df[~df["sequence"].isnull()].copy()
 
-# === 合并列为除主键列外的其他列 ===
-merge_cols = [col for col in df.columns if col not in key_cols]
+# === 合并列为除主键列、PLZ_ID、Other_PLZ_ID外的其他列 ===
+merge_cols = [
+    col for col in df.columns
+    if col not in key_cols + ["PLZ_ID", "Other_PLZ_ID"]
+]
 
-# === 保留原始列顺序 ===
+# === 原始列顺序（不改变除添加 Other_PLZ_ID 外的任何顺序）
 column_order = list(df.columns)
+if "Other_PLZ_ID" not in column_order:
+    column_order.append("Other_PLZ_ID")
 
 # === 初始化统计容器 ===
 group_to_indices = defaultdict(list)
 group_to_content = {}
 source_combinations = []
 
-# === 分组合并函数 ===
-def merge_group(group):
-    group_key = tuple(group.iloc[0][col] for col in key_cols)
+# === 合并函数，主键通过外部绑定传入 ===
+def merge_group(group, group_key):
+    merged = {}
+
+    # 主键
+    for i, col in enumerate(key_cols):
+        merged[col] = group_key[i]
+
     group_to_indices[group_key] = group["original_index"].tolist()
 
-    merged = {}
     for col in merge_cols:
         values = group[col].dropna().astype(str).unique()
         clean_values = [v.strip() for v in values if v.strip() and v.lower() != "nan"]
         merged[col] = "/".join(sorted(set(clean_values)))
-    for col in key_cols:
-        merged[col] = group.iloc[0][col]
 
-    # 记录来源组合（用于统计）
-    combined_sources = group["source_name"].dropna().astype(str).tolist()
-    combo = "/".join(sorted(set(s.strip() for entry in combined_sources for s in entry.split("/") if s.strip())))
-    if combo:
-        source_combinations.append(combo)
+    # === PLZ_ID 专项处理 ===
+    if "PLZ_ID" in group.columns:
+        plz_subframe = group[["PLZ_ID"] + merge_cols].copy()
+        plz_subframe["non_empty_fields"] = plz_subframe.apply(
+            lambda row: sum(bool(str(row[col]).strip()) for col in merge_cols), axis=1
+        )
+        plz_sorted = plz_subframe.sort_values("non_empty_fields", ascending=False)
+
+        best_plz_raw = plz_sorted.iloc[0]["PLZ_ID"]
+        best_plz = str(best_plz_raw).strip().split()[-1]
+
+        all_plz = sorted(set(
+            str(v).strip().split()[-1]
+            for v in group["PLZ_ID"].dropna()
+            if str(v).strip()
+        ))
+        other_plz = [v for v in all_plz if v != best_plz]
+
+        merged["PLZ_ID"] = best_plz
+        merged["Other_PLZ_ID"] = "/".join(other_plz)
+    else:
+        merged["Other_PLZ_ID"] = ""
+
+    # 来源组合（可选）
+    if "source_name" in group.columns:
+        combined_sources = group["source_name"].dropna().astype(str).tolist()
+        combo = "/".join(sorted(set(
+            s.strip()
+            for entry in combined_sources
+            for s in entry.split("/")
+            if s.strip()
+        )))
+        if combo:
+            source_combinations.append(combo)
 
     group_to_content[group_key] = merged
-    return pd.Series(merged)
+    return merged
 
-# === 执行去重 ===
-df_dedup = df.groupby(key_cols, dropna=False, group_keys=False).apply(merge_group).reset_index(drop=True)
-df_dedup = df_dedup[column_order]  # 恢复列顺序
+# === 手动 groupby 循环 ===
+rows = []
+for group_key, group in df.groupby(key_cols, dropna=False):
+    merged_row = merge_group(group, group_key)
+    rows.append(merged_row)
 
-# === 查找仍有重复的主键行（理论上不应有） ===
+df_dedup = pd.DataFrame(rows)
+df_dedup = df_dedup[column_order]
+
+# === 查找仍有重复主键（理论上不应有） ===
 dedup_keys = df_dedup[key_cols].apply(lambda row: tuple(row), axis=1)
 duplicate_counts = dedup_keys.value_counts()
 still_duplicates = duplicate_counts[duplicate_counts > 1]
@@ -82,8 +123,8 @@ with open(LOG_TXT, "w") as f:
         f.write(f"[Merged Group] Key = {key}\n")
         f.write(f" - Merged from lines: {', '.join(indices)}\n")
         merged_row = group_to_content[key]
-        for col in df.columns:
-            f.write(f"   {col}: {merged_row[col]}\n")
+        for col in df_dedup.columns:
+            f.write(f"   {col}: {merged_row.get(col, '')}\n")
         f.write("\n")
 
     if not still_duplicates.empty:

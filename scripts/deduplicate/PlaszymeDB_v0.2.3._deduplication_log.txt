@@ -1,0 +1,222 @@
+=== 📊 去重统计信息 ===
+- 去重主键字段: plastic, label, sequence
+- 原始总行数（剔除 sequence 为空的行后）: 1253
+- 去重后总行数: 1245
+- 共合并重复组数: 8
+- 共合并记录数: 8
+
+=== 🔁 重复来源组合统计 (source_name) ===
+plastic_degrading_enzymes_github : 516 组
+plastic_degrading_enzymes_github/plasticdb : 225 组
+acs_journal/plastic_degrading_enzymes_github : 103 组
+pazy/plastic_degrading_enzymes_github : 93 组
+acs_journal : 70 组
+pazy/plastic_degrading_enzymes_github/plasticdb : 68 组
+pazy : 33 组
+acs_journal/plastic_degrading_enzymes_github/plasticdb : 29 组
+plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb/pmbd : 25 组
+plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd : 19 组
+plastic_degrading_microbiome_github : 13 组
+pazy/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb/pmbd : 9 组
+acs_journal/pazy/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb/pmbd : 7 组
+acs_journal/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb/pmbd : 7 组
+plasticdb : 6 组
+acs_journal/pazy/plastic_degrading_enzymes_github/plasticdb : 4 组
+acs_journal/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb : 3 组
+acs_journal/pazy/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd : 3 组
+plastic_degrading_microbiome_github/pmbd : 2 组
+pazy/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd : 2 组
+acs_journal/pazy/plastic_degrading_enzymes_github : 2 组
+acs_journal/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd : 1 组
+plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb : 1 组
+acs_journal/pazy/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/plasticdb : 1 组
+pazy/plastic_degrading_enzymes_github/plasticdb/pmbd : 1 组
+plastic_degrading_microbiome_github/plasticdb/pmbd : 1 组
+pazy/plastic_degrading_enzymes_github/plastic_degrading_microbiome_github : 1 组
+
+=== 🔎 合并详情 ===
+
+[Merged Group] Key = ('NR', np.int64(1), 'MDGFSRRRMLMTGGALGAVGALGAATRALARPLWTWSPSASVAGTGVGVDPEYVWDEEADPVLAAVIDRGEVPAVNALLKQWTRNDQALPGGLPGDLREFMEHARRMPSWADKAALDRGAQFSKTKGIYVGALYGLGSGLMSTAIPRESRAVYYSKGGADMKDRIAKTARLGYDIGDLDAYLPHGSMIVTAVKTRMVHAAVRHLLPQSPAWSQTSGGQKIPISQADIMVTWHSLATFVMRKMKQWGVRVNTADAEAYLHVWQVSAHMLGVSDEYIPATWDAANAQSKQVLDPILAHTPEGEALTEVLLGIVAELDAGLTRPLIGAFSRYTLGGEVGDMIGLAKQPVLERLIATAWPLLVAFREGLIPLPAVPAVLWTLEEALRKFVLLFLSEGRRIAIDIPDVNRPS')
+ - Merged from lines: 11, 18
+   PLZ_ID: e7e0d72213
+   plastic: NR
+   label: 1
+   sequence: MDGFSRRRMLMTGGALGAVGALGAATRALARPLWTWSPSASVAGTGVGVDPEYVWDEEADPVLAAVIDRGEVPAVNALLKQWTRNDQALPGGLPGDLREFMEHARRMPSWADKAALDRGAQFSKTKGIYVGALYGLGSGLMSTAIPRESRAVYYSKGGADMKDRIAKTARLGYDIGDLDAYLPHGSMIVTAVKTRMVHAAVRHLLPQSPAWSQTSGGQKIPISQADIMVTWHSLATFVMRKMKQWGVRVNTADAEAYLHVWQVSAHMLGVSDEYIPATWDAANAQSKQVLDPILAHTPEGEALTEVLLGIVAELDAGLTRPLIGAFSRYTLGGEVGDMIGLAKQPVLERLIATAWPLLVAFREGLIPLPAVPAVLWTLEEALRKFVLLFLSEGRRIAIDIPDVNRPS
+   genbank_ids: Q3L8N0
+   uniprot_ids: Q3L8N0
+   pdb_ids: 5O1L
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Latex-clearing protein/Lcp
+   ec_number: 
+   gene_name: LCP_STRK3
+   host_organism: Streptomyces sp./Streptomyces sp. K30
+   taxonomy: Bacteria
+   reference: Yikmis, 2012; Rose, 2005; Yikmis, 2008/Yikmis, M., & Steinbüchel, A. (2012). Importance of the latex‐clearing protein (Lcp) for poly (cis‐1, 4‐isoprene) rubber cleavage in Streptomyces sp. K30. Microbiologyopen, 1(1), 13-24./https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: pazy/plastic_degrading_enzymes_github/plasticdb
+   sequence_source: uniport*
+   structure_source: X-ray
+   original_index: 11/18
+   Other_PLZ_ID: b73db43ed5
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'AHVYNDKQIFSLEKERLFSRAWLFVAHESEIPQPGDYVVRQVLQDSFIVARDSAGEVRVMFNMCLHRGMQVCRAEMGNASNFRCPYHGWSYRNDGRIIGLPFHQEAYGGDAGFNKAGQTLLPAPSVASYNGLIFLSMDPDAESLEDYLGDFRFYLDFYTKQGPNGLEVRGPQRWRVKANWKIAAENFAGDMYHTPQTHTSVVEIGLFREPKANKRKDGATYWAGRGGGTTYKLPEGSFEDRMSYVGYPADMISRAKATWTEQQQQVVGTDGFMISAATCFPNISFVHNWPKVEDG')
+ - Merged from lines: 696, 887
+   PLZ_ID: a7b2583e58
+   plastic: Phthalate
+   label: 1
+   sequence: AHVYNDKQIFSLEKERLFSRAWLFVAHESEIPQPGDYVVRQVLQDSFIVARDSAGEVRVMFNMCLHRGMQVCRAEMGNASNFRCPYHGWSYRNDGRIIGLPFHQEAYGGDAGFNKAGQTLLPAPSVASYNGLIFLSMDPDAESLEDYLGDFRFYLDFYTKQGPNGLEVRGPQRWRVKANWKIAAENFAGDMYHTPQTHTSVVEIGLFREPKANKRKDGATYWAGRGGGTTYKLPEGSFEDRMSYVGYPADMISRAKATWTEQQQQVVGTDGFMISAATCFPNISFVHNWPKVEDG
+   genbank_ids: AY372762
+   uniprot_ids: Q6UC96
+   pdb_ids: 
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Phthalate dioxygenase large subunit
+   ec_number: 
+   gene_name: 
+   host_organism: Mycolicibacterium gilvum PYR-GCK
+   taxonomy: 
+   reference: http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2/https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: AlphaFoldDB
+   original_index: 696/887
+   Other_PLZ_ID: c1a9628345
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'AHVYNDRQIFALEKERLFSRAWLFVAHESEIPQPGDYVVRQVLQDSFIVARDSAGEVRVMFNMCLHRGMQVCRAEMGNASNFRCPYHGWSYRNDGRIIGLPFHQEAYGGDAGFNKEGQTLLPAPNAASYNGLIFLSMDPDAEPLDEYLGDFRFYLDFYTKQSPNGLEVRGPQRWRVKANWKIAAENFAGDMYHTPQTHTSVVEIGLFREPKANKRKDGATYWAGRGGGTTYKLPEGDFEERMSYVGYPAEMISRAKATWTEQQQQLVGADGFMISAATCFPNISFVHNWPKVEDG')
+ - Merged from lines: 697, 888
+   PLZ_ID: a6430f171e
+   plastic: Phthalate
+   label: 1
+   sequence: AHVYNDRQIFALEKERLFSRAWLFVAHESEIPQPGDYVVRQVLQDSFIVARDSAGEVRVMFNMCLHRGMQVCRAEMGNASNFRCPYHGWSYRNDGRIIGLPFHQEAYGGDAGFNKEGQTLLPAPNAASYNGLIFLSMDPDAEPLDEYLGDFRFYLDFYTKQSPNGLEVRGPQRWRVKANWKIAAENFAGDMYHTPQTHTSVVEIGLFREPKANKRKDGATYWAGRGGGTTYKLPEGDFEERMSYVGYPAEMISRAKATWTEQQQQLVGADGFMISAATCFPNISFVHNWPKVEDG
+   genbank_ids: AY372761
+   uniprot_ids: Q6UC97
+   pdb_ids: 
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Phthalate dioxygenase large subunit
+   ec_number: 
+   gene_name: 
+   host_organism: Mycobacterium sp. PAH2.135
+   taxonomy: 
+   reference: http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2/https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: AlphaFoldDB
+   original_index: 697/888
+   Other_PLZ_ID: df0e288173
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'MLTHQENELLCRVEGDAPMGQLMRRHWTPVCLIEEVSEPDGAPVKARVFGEDLVVFRDSEGNVGVLDEYCPHRRASLVYGRNEDSGLRCLYHGWKFDVAGNVLEMVSEPAASSMTDKVKHKAYPVQEWGGMVWAYMGPQDAIPEFVPPAWAPTADTRVSIAKALLPCNWAQILEGAIDSAHSSSLHSSDFVPARVGGAEATDKNWLRPSTDKAPRLQVERTDYGFRYAALRRPIFNANTHDYVRCTVFVAPGTVLIPPNNLYNVANINVPMDDTNTAFYFIAWGDPETTPENETWRKFLRQQVGVDLDQYYRPLRNHDNRFWQDRQAMKAGNFTGISGFPNQDIAMWVTMGPIANRSDERLGGSDLAIVEFRRRMLDAITEFQQGDGTIGTGAKAIPREVCSYQAVVPKEIDWRTYAARYVSKKNPEPADQPSALATDYQVKQ')
+ - Merged from lines: 699, 889
+   PLZ_ID: ca458ed41e
+   plastic: Phthalate
+   label: 1
+   sequence: MLTHQENELLCRVEGDAPMGQLMRRHWTPVCLIEEVSEPDGAPVKARVFGEDLVVFRDSEGNVGVLDEYCPHRRASLVYGRNEDSGLRCLYHGWKFDVAGNVLEMVSEPAASSMTDKVKHKAYPVQEWGGMVWAYMGPQDAIPEFVPPAWAPTADTRVSIAKALLPCNWAQILEGAIDSAHSSSLHSSDFVPARVGGAEATDKNWLRPSTDKAPRLQVERTDYGFRYAALRRPIFNANTHDYVRCTVFVAPGTVLIPPNNLYNVANINVPMDDTNTAFYFIAWGDPETTPENETWRKFLRQQVGVDLDQYYRPLRNHDNRFWQDRQAMKAGNFTGISGFPNQDIAMWVTMGPIANRSDERLGGSDLAIVEFRRRMLDAITEFQQGDGTIGTGAKAIPREVCSYQAVVPKEIDWRTYAARYVSKKNPEPADQPSALATDYQVKQ
+   genbank_ids: AF095748
+   uniprot_ids: Q9ZFQ5
+   pdb_ids: 
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Phthalate dioxygenase
+   ec_number: 
+   gene_name: ophA2
+   host_organism: Burkholderia cepacia DBO1
+   taxonomy: 
+   reference: https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC107754//https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: AlphaFoldDB
+   original_index: 699/889
+   Other_PLZ_ID: 43eda4fa96
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'MSKLQLSIAVGNYDRMRPLIDGDVQIDGVDPVFMLQDPEEIFFRAFRHADYDICELSLSSYSVKTAAGTSPYIAVPVFPSRAFRHSSVYVRSDRGIDRPEDLKGKRIGVPEYQLTANVWVRLFLEEEYGVKASDIRWVRGGYEDPTRVEKISLKLPDGVVLENAPEGQTISNLLADGEIDGVIGPRAPSCFDRGHPKVKYLFDDPQKSAAEWYERRKVFPIMHTLGIRKTLADQHPWLPGAIAKAFEQSKEVALARLSDTSATKVTLPFIEDQLRNARRLMGHDFWSYGFANNEHVIDRFLAQHHAEGLSSRRLQPAELFHPASLERFKI')
+ - Merged from lines: 700, 890
+   PLZ_ID: 245d273c1d
+   plastic: Phthalate
+   label: 1
+   sequence: MSKLQLSIAVGNYDRMRPLIDGDVQIDGVDPVFMLQDPEEIFFRAFRHADYDICELSLSSYSVKTAAGTSPYIAVPVFPSRAFRHSSVYVRSDRGIDRPEDLKGKRIGVPEYQLTANVWVRLFLEEEYGVKASDIRWVRGGYEDPTRVEKISLKLPDGVVLENAPEGQTISNLLADGEIDGVIGPRAPSCFDRGHPKVKYLFDDPQKSAAEWYERRKVFPIMHTLGIRKTLADQHPWLPGAIAKAFEQSKEVALARLSDTSATKVTLPFIEDQLRNARRLMGHDFWSYGFANNEHVIDRFLAQHHAEGLSSRRLQPAELFHPASLERFKI
+   genbank_ids: AF095748
+   uniprot_ids: Q9ZFR0
+   pdb_ids: 
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: 4,5-dihydroxyphthalate decarboxylase
+   ec_number: 
+   gene_name: ophC
+   host_organism: Burkholderia cepacia DBO1
+   taxonomy: 
+   reference: https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC107754//https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: AlphaFoldDB
+   original_index: 700/890
+   Other_PLZ_ID: cf5ff96a55
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'MTTPQEDGFLRLKIASKEKIARDIWSFELTDPQGAPLPPFEAGANLTVAVPNGSRRTYSLCNDSQERNRYVIAVKRDSNGRGGSISFIDDTSEGDAVEVSLPRNEFPLDKRAKSFILVAGGIGITPMLSMARQLRAEGLRSFRLYYLTRDPEGTAFFDELTSDEWRSDVKIHHDHGDPTKAFDFWSVFEKSKPAQHVYCCGPQALMDTVRDMTGHWPSGTVHFESFGATNTNARENTPFTVRLSRSGTSFEIPANRSILEVLRDANVRVPSSCESGTCGSCKTALCSGEADHRDMVLRDDEKGTQIMVCVSRAKSAELVLDL')
+ - Merged from lines: 702, 891
+   PLZ_ID: 4e85264cb2
+   plastic: Phthalate
+   label: 1
+   sequence: MTTPQEDGFLRLKIASKEKIARDIWSFELTDPQGAPLPPFEAGANLTVAVPNGSRRTYSLCNDSQERNRYVIAVKRDSNGRGGSISFIDDTSEGDAVEVSLPRNEFPLDKRAKSFILVAGGIGITPMLSMARQLRAEGLRSFRLYYLTRDPEGTAFFDELTSDEWRSDVKIHHDHGDPTKAFDFWSVFEKSKPAQHVYCCGPQALMDTVRDMTGHWPSGTVHFESFGATNTNARENTPFTVRLSRSGTSFEIPANRSILEVLRDANVRVPSSCESGTCGSCKTALCSGEADHRDMVLRDDEKGTQIMVCVSRAKSAELVLDL
+   genbank_ids: AF095748
+   uniprot_ids: P33164
+   pdb_ids: 2PIA
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Phthalate dioxygenase reductase
+   ec_number: 
+   gene_name: ophA1
+   host_organism: Burkholderia cepacia DBO1
+   taxonomy: 
+   reference: https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC107754//https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: X-ray
+   original_index: 702/891
+   Other_PLZ_ID: d6d22e6e3e
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'RATVDAFLNEAAQVAVLEYDSAKCAALRQQLPDVPVIEGDGTTRAASDEAVEVAVDAFGGLDTLVNCVGIFDFYRGIQDIPAERIDQAFDEMFRLNVLSHIHSVKAALPALMDQGGASIILTESTSSFYPGRGGL')
+ - Merged from lines: 703, 892
+   PLZ_ID: 7cd0d77ec3
+   plastic: Phthalate
+   label: 1
+   sequence: RATVDAFLNEAAQVAVLEYDSAKCAALRQQLPDVPVIEGDGTTRAASDEAVEVAVDAFGGLDTLVNCVGIFDFYRGIQDIPAERIDQAFDEMFRLNVLSHIHSVKAALPALMDQGGASIILTESTSSFYPGRGGL
+   genbank_ids: AY372763
+   uniprot_ids: Q6UC95
+   pdb_ids: 
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Phthalate dihydrodiol dehydrogenase
+   ec_number: 
+   gene_name: 
+   host_organism: Mycobacterium sp. PAH2.135
+   taxonomy: 
+   reference: http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2/https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: AlphaFoldDB
+   original_index: 703/892
+   Other_PLZ_ID: 8765440774
+
+[Merged Group] Key = ('Phthalate', np.int64(1), 'RATVDAFLNEDARVAVLEYDSGKCATLRQQLPDVPVIEGDGTTRTANDEAVQVAVDAFGGLDTLVNCVGIFDFYRRIQDIPAERIDQAFDEMFRINVLSHIHSVKAAVPALMGQDGASIVLTESASSFYPGRGGL')
+ - Merged from lines: 704, 893
+   PLZ_ID: 684f7fab7d
+   plastic: Phthalate
+   label: 1
+   sequence: RATVDAFLNEDARVAVLEYDSGKCATLRQQLPDVPVIEGDGTTRTANDEAVQVAVDAFGGLDTLVNCVGIFDFYRRIQDIPAERIDQAFDEMFRINVLSHIHSVKAAVPALMGQDGASIVLTESASSFYPGRGGL
+   genbank_ids: AY372764
+   uniprot_ids: Q6UC94
+   pdb_ids: 
+   refseq_ids: 
+   mgnify_ids: 
+   enzyme_name: Phthalate dihydrodiol dehydrogenase
+   ec_number: 
+   gene_name: 
+   host_organism: Mycolicibacterium gilvum PYR-GCK
+   taxonomy: 
+   reference: http://mic.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.27263-0#tab2/https://github.com/JanZrimec/Plastic_degrading_microbiome/blob/master/data/Dataset_queries.csv/https://github.com/ProteinEngineering-PESB2/plastic_degrading_enzymes/blob/main/raw_data/enzymes_plastics.csv
+   source_name: plastic_degrading_enzymes_github/plastic_degrading_microbiome_github/pmbd
+   sequence_source: uniport
+   structure_source: AlphaFoldDB
+   original_index: 704/893
+   Other_PLZ_ID: 75a85135b8
+
