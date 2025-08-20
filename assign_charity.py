@@ -1,7 +1,7 @@
 from rdkit import Chem
 from rdkit.Chem import AllChem, SDWriter
 import logging
-from mol_try import generate_polymer
+from generate_sdf import generate_polymer
 import os
 import datetime
 import sys
