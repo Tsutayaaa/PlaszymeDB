@@ -1,7 +1,7 @@
 import pandas as pd
 
 # === 参数配置 ===
-INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/scripts/deduplicate/PlaszymeDB_v0.2.3._deduplicated.csv"      # 替换为你的实际路径
+INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/dataset/PlaszymeDB_v0.3.1.csv"      # 替换为你的实际路径
 TARGET_COLUMN = "plastic"               # 替换为你要提取的列名
 OUTPUT_CSV = "plastic_types.csv"        # 输出的文件名
 
