@@ -1,0 +1,10 @@
+{
+  "rows": 499,
+  "cols": 37,
+  "observed_pairs": 749,
+  "positives": 749,
+  "negatives": 0,
+  "density_over_observed": 1.0,
+  "matrix_dtype": "int8",
+  "note": "未知/未观测位置不存储；请结合 observed_mask 区分 0 与 None。"
+}
