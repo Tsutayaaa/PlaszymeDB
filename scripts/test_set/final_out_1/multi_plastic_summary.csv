@@ -1,0 +1,3 @@
+split,n_sequences,n_multi_plastic_sequences,multi_plastic_ratio
+test,88,25,0.284091
+train,411,101,0.245742

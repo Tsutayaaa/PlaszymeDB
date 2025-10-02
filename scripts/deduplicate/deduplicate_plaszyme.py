@@ -2,7 +2,7 @@ import pandas as pd
 from collections import defaultdict, Counter
 
 # === 用户参数 ===
-INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/scripts/deduplicate/PlaszymeDB_v0.2.3.csv"
+INPUT_CSV = "/Users/shulei/PycharmProjects/Dataset/dataset/PlaszymeDB_v0.3.1.csv"
 OUTPUT_CSV = INPUT_CSV.replace(".csv", "._deduplicated.csv")
 LOG_TXT = INPUT_CSV.replace(".csv", "._deduplication_log.txt")
 
@@ -12,6 +12,10 @@ key_cols = ["plastic", "label", "sequence"]
 # === 加载数据并标注原始行号 ===
 df = pd.read_csv(INPUT_CSV)
 df["original_index"] = df.index.astype(str)
+
+# === 统一大小写 ===
+if "sequence" in df.columns:
+    df["sequence"] = df["sequence"].astype(str).str.upper().str.strip()
 
 # === 移除 sequence 为空的行（其余两列可为空）===
 df = df[~df["sequence"].isnull()].copy()

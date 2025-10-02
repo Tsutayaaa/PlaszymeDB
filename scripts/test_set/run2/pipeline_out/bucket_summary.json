@@ -1,0 +1,61 @@
+{
+  "buckets_count": {
+    "Easy": 284,
+    "Medium": 45,
+    "Hard": 170
+  },
+  "selected": {
+    "Easy": 30,
+    "Medium": 28,
+    "Hard": 30,
+    "Total": 88
+  },
+  "config": {
+    "input_txt": "/Users/shulei/PycharmProjects/Dataset/scripts/test_set/out/sparse_matrix_v0.3.1_row_ids.txt",
+    "output_dir": ".run2/pipeline_out",
+    "case": "upper",
+    "strip_whitespace": true,
+    "min_len": 1,
+    "gap_open": -10.0,
+    "gap_extend": -0.5,
+    "substitution_matrix_name": "BLOSUM62",
+    "identity_mode": "matches_over_aligned_nongap",
+    "n_jobs": 4,
+    "chunk_size": 256,
+    "hist_bin_edges": [
+      0.0,
+      0.5,
+      0.7,
+      0.85,
+      0.9,
+      0.95,
+      0.98,
+      0.99,
+      0.995,
+      1.001
+    ],
+    "percentiles": [
+      1,
+      5,
+      10,
+      25,
+      50,
+      75,
+      90,
+      95,
+      98,
+      99
+    ],
+    "top_pairs_N": 200,
+    "random_seed": 42,
+    "TH_HIGH": 0.95,
+    "TH_LOW": 0.75,
+    "TARGET_EASY": 30,
+    "TARGET_MED": 30,
+    "TARGET_HARD": 30,
+    "ENFORCE_NEAREST_STAYS_IN_TRAIN": true,
+    "TEST_INTERNAL_MAX": 0.99,
+    "TOLERANCE_STEP": 0.01,
+    "TOLERANCE_MAX": 0.1
+  }
+}
